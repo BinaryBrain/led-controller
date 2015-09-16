@@ -3,8 +3,7 @@ Raspberry Pi LED Web Controller
 
 ## Json
 
-```
-
+```json
 {
 	strip: 1,
 	red: 255,
@@ -12,7 +11,6 @@ Raspberry Pi LED Web Controller
 	blue: 150,
 	function: "sin(x)"
 }
-
 ```
 
 _The `function` parameter is formatted to be read by [MathJS](http://mathjs.org/)_
