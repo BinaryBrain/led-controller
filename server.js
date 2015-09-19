@@ -11,7 +11,7 @@ var server = http.createServer(app)
 var port = 8700
 
 var strips = [
-	{ red: 17, green: 27, blue: 22 }
+	{ red: 27, green: 17, blue: 22 }
 ]
 
 console.log("Starting Node Server on port " + port)
