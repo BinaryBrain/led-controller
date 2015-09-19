@@ -47,4 +47,16 @@ $(function () {
 			send(rgb.r, rgb.g, rgb.b)
 		}
 	})
+
+	$('#red').on('click', function () {
+		send(255, 0, 0)
+	})
+
+	$('#green').on('click', function () {
+		send(0, 255, 0)
+	})
+
+	$('#blue').on('click', function () {
+		send(0, 0, 255)
+	})
 })
