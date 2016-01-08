@@ -30,8 +30,8 @@ app.post('/update', function (req, res) {
 	}
 
 	blaster.setPwm(strips[data.strip].red, data.red / 255)
-	blaster.setPwm(strips[data.strip].green, data.green / 255)
-	blaster.setPwm(strips[data.strip].blue, data.blue / 255)
+	blaster.setPwm(strips[data.strip].green, data.green / (255 * 4))
+	blaster.setPwm(strips[data.strip].blue, data.blue / (255 * 4))
 
 	res.send('ok')
 })
